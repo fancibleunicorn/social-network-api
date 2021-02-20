@@ -28,13 +28,15 @@ Run "node server" or "npm start" to start the program.  You will need to run the
   
     Example JSON:
     
-    `{
+    ```json
+    {
     
-	`"username" : "example",
+	"username" : "example",
 	
-	`"email" : "example@gmail.com
+	"email" : "example@gmail.com
 	
- 	`}`
+ 	}
+	```
   
   - PUT `/api/users/:id` to Update a User
   
