@@ -5,13 +5,15 @@ const {
     getUserById,
     createUser,
     updateUser,
-    deleteUser
+    deleteUser,
+    removeAllUsers
 } = require('../../controllers/user-controller');
 
 router
 .route('/')
 .get(getAllUsers)
-.post(createUser);
+.post(createUser)
+.delete(removeAllUsers);
 
 router
 .route('/:id')
