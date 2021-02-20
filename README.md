@@ -73,12 +73,12 @@ Run "node server" or "npm start" to start the program.  You will need to run the
 	Example JSON:
 
 ```json
-{
+	{
     
 	"reactionBody": "What a great thought!",
 	"username": "Robert"
 	
- }
+	}
 ```
 	
 - DELETE `/api/thoughts/:thoughtId/reactions/:reactionId` to delete a Reaction based on its id and the Thought its reacting on's id
