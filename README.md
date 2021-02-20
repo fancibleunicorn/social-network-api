@@ -73,7 +73,7 @@ Run "node server" or "npm start" to start the program.  You will need to run the
 	Example JSON:
 
 ```json
-    {
+{
     
 	"reactionBody": "What a great thought!",
 	"username": "Robert"
