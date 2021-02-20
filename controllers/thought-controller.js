@@ -30,7 +30,7 @@ const thoughtController = {
             }
             res.json(dbUserData);
         })
-        .catch(err => res.jeson(err));
+        .catch(err => res.json(err));
     },
 
     // update a Thought by id
