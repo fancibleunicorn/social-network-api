@@ -4,7 +4,9 @@
 
  A back-end application to create, update, and maintain a NoSQL database of users, friends, thoughts, and reactions for a social network site.
   
-To view a walkthrough, [Click Here](https://drive.google.com/file/d/1UDQmfLQG4CP5Pzqe7s9Gp6ENQgPQMbJJ/view)
+To view a walkthrough, [Click Here for Part One](https://drive.google.com/file/d/1bZLh00ea6P_GjlipWYJaAH9LC8WD9uBx/view)
+[Click Here for Part Two](https://drive.google.com/file/d/1bZLh00ea6P_GjlipWYJaAH9LC8WD9uBx/view)
+
   
   ## Table of Contents
   
