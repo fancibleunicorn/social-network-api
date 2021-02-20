@@ -22,9 +22,11 @@ To view a walkthrough, [Click Here](https://drive.google.com/file/d/1UDQmfLQG4CP
   ## Usage 
 
 Run "node server" or "npm start" to start the program.  You will need to run the api routes via Insomnia in order to update the database:
+
   # User Routes 
-  - GET `/api/users` To retrieve all Users
-  - POST `/api/users` to Create a User
+  - GET `/api/users` to retrieve all Users
+  - GET `/api/users/:id` to rtreive a single User by their id
+  - POST `/api/users` to create a User
   
     Example JSON:
     
@@ -38,7 +40,34 @@ Run "node server" or "npm start" to start the program.  You will need to run the
  	}
 	```
   
-  - PUT `/api/users/:id` to Update a User
+  - PUT `/api/users/:id` to update a User's information based on their id
+  - DELETE `/api/users/:id` to delete a User based on their id
+
+# Friend Routes
+- POST `/api/users/:userId/friends/:friendId` to add a User to another User's friends array based on their respective id's
+- DELETE `/api/users/:userId/friends/:friendId` to remove a User from another User's friends array based on their respective id's
+
+# Thought Routes
+- GET `/api/thoughts` to retrieve all Thoughts
+- GET `/api/thoughts/:id` to retrieve a single Thought by its id
+- POST `/api/thoughts/:userId` to create a Thought for a specific User based on their id
+
+	Example JSON:
+	
+	
+    ```json
+    {
+    
+	"thoughtText": "new thought",
+	"username": "example name"
+	
+ 	}
+	```
+
+- PUT `/api/thoughts/:userId/:thoughtId` to update a Thought based on its id and the user who created it
+- DELETE `/api/thoughts/:userId/:thoughtId` to delete a Thought based on its id and the user who created it
+
+
   
   ## Contributing
 
